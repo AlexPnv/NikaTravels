@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Voyage Website Template | Home :: w3layouts</title>
+		<title>NikaTravels</title>
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
 		<script src="js/jquery.min.js"></script>
@@ -101,22 +102,31 @@
 								<li><a href="#">Подбор тура</a>
 									<ul>
 										<li><a href="#">Пляжный отдых</a></li>
+										<li><a href="#">Экзотический отдых</a></li>
 										<li><a href="#">Горнолыжный отдых</a></li>
+										<li><a href="#">Экстремальный отдых</a></li>
 										<li><a href="#">Экскурсионные туры</a></li>
+										<li><a href="#">Туры выходного дня</a></li>
 										<li><a href="#">Оздоровительные туры</a></li>
+										<li><a href="#">Автобусные туры</a></li>
 										<li><a href="#">Обучающие туры</a></li>
+										<li><a href="#">Ж/Д туры</a></li>
 										<li><a href="#">Шопинг туры</a></li>
 											</li></ul>
 								<li><a href="#">Круизы</a></li>
 								<li><a href="#">Свадебные путешествия</a></li>
-								<li><a href="#">Экзотический отдых</a></li>
-								<li><a href="#">Экстримальный отдых</a></li>
+								<li><a href="#">Полезные статьи</a></li>
+								<li><a href="#">Туры для школьников и студентов</a></li>
 								<li><a href="#">Дополнительные услуги</a>
 										<ul>
 										<li><a href="#">Визовая поддержка</a></li>
+										<li><a href="#">Трансфер</a></li>
 										<li><a href="#">Авиабилеты</a></li>
+										<li><a href="#">Раннее бронирование</a></li>
 										<li><a href="#">Страхование</a></li>
-										<li><a href="#">оформление необходимых документов</a></li>
+										<li><a href="#">Горящие туры</a></li>
+										<li><a href="#">Оформление необходимых документов</a></li>
+										<li><a href="#">Подбор индивидульных туров</a></li>
 										
 											</li></ul>
 								</li>
@@ -128,9 +138,27 @@
 					<!--		<li><a href="criuses.html">Criuses</a></li>   -->
 					<!--		<li><a href="destinations.html">Specials</a></li>  -->
 							<li><a href="contact.html">Контакты</a></li>
+								
+							<li>
+							<div class="p-ww">
+							<a href="#win1"><input type="submit" value="Перезвонить мне" /></a>
 
+						</div></li>
 						</ul>
-						
+							<a href="#x" class="overlay" id="win1"></a>
+        <div  style="text-align:center" class="popup">
+            
+           <h1>Менеджер позвонит Вам совсем скоро</h1><br>   
+					<form>
+						<input class="one" type="text" placeholder="Телефон" /><br><br><input class="one" type="text" placeholder="Ваше имя" /><br><br>
+						 <input class="button1" type="submit" value="Отправить" />
+					</form>
+			<a class="close" title="Закрыть" href="index.html" onclick = "index.html(); return false;"></a>
+        </div>
+        <style type="text/css">
+
+
+        </style>						
 				</div>
 				<!--- //End-top-nav---->
 				<div class="clear"> </div>
@@ -157,7 +185,7 @@
 		                        <!-- /Text description -->
 		                        <div class="slide-btns description">
 		                        	<ul>
-		                        		<li><a class="mapbtn" href="contact.html">Заказать прайс услуг </a></li>
+		                        		<li><a href="zayavka-na-podbor-tura.html" class="mapbtn" >Заявка на подбор тура </a></li>
 		                        		<!-- <li><a class="minfo" href="#">More info </a></li>
 		                        		<div class="clear"> </div>-->
 		                        	</ul>
@@ -166,6 +194,7 @@
 		                </div>
 		                 <!-- /Texts container -->
 		            </div>
+
 		            <!-- /Duplicate to create more slides -->
 		            <div class="slide">
 		                <img src="images/slider-bg2.jpg" alt=""/>
@@ -179,7 +208,7 @@
 		                        <!-- /Text description -->
 		                        <div class="slide-btns description">
 		                        	<ul>
-		                        		<li><a class="mapbtn" href="contact.html">Заказать прайс услуг </a></li>
+		                        		<li><a href="zayavka-na-podbor-tura.html" class="mapbtn" >Заявка на подбор тура </a></li>
 		                        		<!--<li><a class="minfo" href="#">More info </a></li>
 		                        		<div class="clear"> </div>-->
 		                        	</ul>
@@ -187,6 +216,9 @@
 		                    </div>
 		                </div>
 		            </div>
+
+     
+
 		            <!--/slide -->
 		        </div>
 		        <div class="timers"> </div>
@@ -195,38 +227,10 @@
 		    </div>
 		    <!--/slider -->
 		</div>
-		<!----start-find-place---->
-		<div class="find-place">
-			<div class="wrap">
-				<div class="p-h">
-					<span>Поможем подобрать</span>
-					<label>ВАШ ТУР</label>
-				</div>
-				<!---strat-date-piker---->
-				  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-				  <script>
-				  $(function() {
-				    $( "#datepicker" ).datepicker();
-				  });
-				  </script>
-				<!---/End-date-piker---->
-				<div class="p-ww">
-					<form>
-						<span> Телефон</span>
-						<input class="dest" type="text" value="Номер телефона" style="width:215px;" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Номер телефона';}">
-						<span> Когда</span>
-						<input class="date" id="datepicker" type="text" style="width:215px;" value="Выберите дату" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Выберите дату';}">
-						<input type="submit" value="Перезвонить мне" />
-					</form>
-				</div>
-				<div class="clear"> </div>
-			</div>
-		</div>
-		<!----//End-find-place---->
 		<!----start-offers---->
 		<div class="offers">
 			<div class="offers-head">
-				<h3>Лучшие туры</h3>
+				<h3>Горящие туры</h3>
 				<p>У нас самые выгодные предложения</p>
 			</div>
 			<!-- start content_slider -->
@@ -487,7 +491,7 @@
 						</div>
 						<div class="holiday-type-grid" onclick="location.href='#';">
 							<span class="icon4"> </span>
-							<a href="#">Экстримальный отдых</a>
+							<a href="#">Экстремальный отдых</a>
 						</div>
 						<div class="holiday-type-grid" onclick="location.href='#';">
 							<span class="icon5"> </span>
@@ -497,6 +501,11 @@
 							<span class="icon6"> </span>
 							<a href="#">Пляжный отдых</a>
 						</div>
+						<div class="holiday-type-grid" onclick="location.href='#';">
+							<span class="icon7"> </span>
+							<a href="#">Горнолыжный отдых</a>
+						</div>
+						
 						<div class="clear"> </div>
 					</div>
 				</div>
@@ -546,7 +555,7 @@
 			<div class="wrap">
 			<div class="footer-grids">
 				<div class="footer-grid Newsletter">
-					<h3>Напишите нам </h3>
+					<h3>Свяжемся с Вами </h3>
 					<p>Если у Вас есть вопросы по поводу туров, оформления виз и всего прочего - оставьте телефон и мы Вам перезвоним.</p>
 					<form>
 						<input type="text" placeholder="Телефон" /><br><br>
@@ -636,6 +645,11 @@
 		</div>
 		<!---//End-subfooter---->
 		<!----//End-wrap---->
+
+
+
+        
+
 	</body>
 </html>
 
